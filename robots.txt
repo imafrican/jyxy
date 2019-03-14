@@ -1,0 +1,7 @@
+
+User-agent: *
+
+Disallow: /Manage/
+Disallow: /DataBaseBackup/
+Disallow: /UserFiles/
+

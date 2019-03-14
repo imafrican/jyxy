@@ -1,0 +1,21 @@
+无法打开登录所请求的数据库 "xxxxxx"。登录失败。
+用户 'IIS APPPOOL\xxxxxxxxxxxx 登录失败。 
+
+或者这样的错误信息:
+
+异常详细信息: System.Data.SqlClient.SqlException: 用户 'IIS APPPOOL\xxxxxxxx' 登录失败。
+
+
+
+在Visual Studio 2010调试模式下,没有问题,配置到IIS就出错.原因是权限问题.
+
+在IIS中默认是不允许window集成登录的,改为帐号密码登录就没有问题了,服务器名最好填写ip地址/实例名这样的格式,以免报错.
+
+1.若应用程序的连接字符串是windows集成登录 ，将其改成用户名密码登录
+
+2.在IIS管理器中——》应用程序池——》ASP.NET V4.0————》高级设置——》标识——》改为localSystem
+--------------------- 
+作者：MacleChen 
+来源：CSDN 
+原文：https://blog.csdn.net/yishengzhiai005/article/details/25040713 
+版权声明：本文为博主原创文章，转载请附上博文链接！

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode url="index.aspx" title="首页"  description="网站首页">
+		<siteMapNode title="学院简介" url="Column.aspx?id=00010009&#38;type=1">
+			<siteMapNode title="学院概况" url="Column.aspx?id=000100090001&#38;type=1" />
+			<siteMapNode title="领导班子" url="Column.aspx?id=000100090002&#38;type=1" />
+			<siteMapNode title="组织机构" url="Column.aspx?id=000100090003&#38;type=1" />
+			<siteMapNode title="发展规划" url="Column.aspx?id=000100090004&#38;type=1" />
+      <siteMapNode title="知名院友" url="Column.aspx?id=000100090005&#38;type=1" />
+		</siteMapNode>
+
+		<siteMapNode title="专业设置" url="Column.aspx?id=00010010&#38;type=1">
+			<siteMapNode title="教育技术学" url="Column.aspx?id=000100100001&#38;type=1" />
+			<siteMapNode title="公共事业管理" url="Column.aspx?id=000100100002&#38;type=1" />
+			<siteMapNode title="心理学" url="Column.aspx?id=000100100003&#38;type=1" />
+		</siteMapNode>
+		<siteMapNode title="学院特色" url="xyts.aspx?id=46">
+			<siteMapNode title="服务地方" url="xyts.aspx?id=55" />
+			<siteMapNode title="异步教学" url="xyts.aspx?id=56" />
+			<siteMapNode title="心理健康" url="xljk/index.htm" />
+		</siteMapNode>
+		<siteMapNode title="师资队伍" url="Column.aspx?id=00010008&#38;type=1">		
+      <siteMapNode title="教师简介" url="Column.aspx?id=000100080001&#38;type=1" />
+			<siteMapNode title="责任教授" url="Column.aspx?id=000100080002&#38;type=1" />
+      <siteMapNode title="硕博导师" url="Column.aspx?id=000100080003&#38;type=1" />
+		 </siteMapNode>
+		<siteMapNode title="教务信息" url="Column2.aspx?id=00010015&#38;type=1">	
+		
+		</siteMapNode>
+			<siteMapNode title="科研动态" url="Column2.aspx?id=00010016&#38;type=1">	
+		
+		</siteMapNode>
+		<siteMapNode title="研究生教育" url="Column.aspx?id=00010006&#38;type=1">
+			<siteMapNode title="工作动态" url="Column.aspx?id=000100060001&#38;type=1" />
+			<siteMapNode title="文档下载" url="Column.aspx?id=000100060002&#38;type=1" />
+			<siteMapNode title="导师介绍" url="Column.aspx?id=000100060003&#38;type=1" />
+		</siteMapNode>
+		<siteMapNode title="学生工作" url="Column.aspx?id=00010002&#38;type=2">
+			    <siteMapNode title="学工新闻" url="Column.aspx?id=000100020001&#38;type=2" />
+				<siteMapNode title="团学联活动" url="Column.aspx?id=000100020002&#38;type=2" />
+				<siteMapNode title="班级活动" url="Column.aspx?id=000100020003&#38;type=2" />
+				<siteMapNode title="岗位职责" url="Column.aspx?id=000100020004&#38;type=2" />
+				<siteMapNode title="计划总结" url="Column.aspx?id=000100020005&#38;type=2" />
+				<siteMapNode title="规章制度" url="Column.aspx?id=000100020006&#38;type=2" />
+				<siteMapNode title="班主任" url="Column.aspx?id=000100020007&#38;type=2" />
+				<siteMapNode title="光荣榜" url="Column.aspx?id=000100020008&#38;type=2" />
+				<siteMapNode title="校友风采" url="Column.aspx?id=000100020009&#38;type=2" />
+				<siteMapNode title="习作园地" url="Column.aspx?id=000100020010&#38;type=2" />
+				<siteMapNode title="学生名录" url="Column.aspx?id=000100020011&#38;type=2" />
+			  <siteMapNode title="学生社团" url="Column.aspx?id=000100020012&#38;type=2" />
+			  <siteMapNode title="青年志愿者" url="Column.aspx?id=000100020013&#38;type=2" />
+		</siteMapNode>
+		<siteMapNode title="教育硕士" url="Master.aspx">
+			<siteMapNode title="最新动态" url="Column.aspx?id=000100030001&#38;type=4" />
+			<siteMapNode title="工作通知" url="Column.aspx?id=000100030002&#38;type=4" />
+			<siteMapNode title="政策制度" url="Column.aspx?id=000100030003&#38;type=4" />
+			<siteMapNode title="组织机构" url="Column.aspx?id=000100030004&#38;type=4" />
+			<siteMapNode title="师资队伍" url="Column.aspx?id=000100030005&#38;type=4" />
+			<siteMapNode title="招生录取" url="Column.aspx?id=000100030006&#38;type=4" />
+			<siteMapNode title="教学管理" url="Column.aspx?id=000100030007&#38;type=4" />
+			<siteMapNode title="学位论文" url="Column.aspx?id=000100030008&#38;type=4" />
+			<siteMapNode title="考前辅导" url="Column.aspx?id=000100030009&#38;type=4" />
+			<siteMapNode title="表格下载" url="Column.aspx?id=000100030010&#38;type=4" />
+			
+		</siteMapNode>
+		<siteMapNode title="党委在线" url="Column.aspx?id=00010004&#38;type=3">
+			<siteMapNode title="党建动态" url="Column.aspx?id=000100040001&#38;type=3" />
+			<siteMapNode title="党委委员" url="Column.aspx?id=000100040002&#38;type=3" />
+			<siteMapNode title="党办职员" url="Column.aspx?id=000100040003&#38;type=3" />
+			<siteMapNode title="支部建设" url="Column.aspx?id=000100040004&#38;type=3" />
+			<siteMapNode title="规章制度" url="Column.aspx?id=000100040005&#38;type=3" />
+			<siteMapNode title="计划总结" url="Column.aspx?id=000100040006&#38;type=3" />
+			<siteMapNode title="工会工作" url="Column.aspx?id=000100040007&#38;type=3" />
+			<siteMapNode title="统战工作" url="Column.aspx?id=000100040008&#38;type=3" />
+			<siteMapNode title="老协工作" url="Column.aspx?id=000100040009&#38;type=3" />
+			<siteMapNode title="文件选阅" url="Column.aspx?id=000100040010&#38;type=3" />
+		
+
+		</siteMapNode>
+                <siteMapNode title="学生工作会议" url="Column.aspx?id=00010014&#38;type=1">
+			<siteMapNode title="会议内容" url="Column.aspx?id=000100140001&#38;type=1" />
+			<siteMapNode title="会议视频" url="Column.aspx?id=000100140002&#38;type=1" />
+			<siteMapNode title="会议照片" url="Column.aspx?id=000100140003&#38;type=1" />	
+		</siteMapNode>
+		<siteMapNode title="新闻公告" url="Column.aspx?id=00010001&#38;type=1">
+			<siteMapNode title="教院快讯" url="Column.aspx?id=000100010001&#38;type=1" />
+			<siteMapNode title="学院公告" url="Column.aspx?id=000100010002&#38;type=1" />
+		</siteMapNode>
+	
+    </siteMapNode>
+</siteMap>
